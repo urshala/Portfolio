@@ -1,0 +1,24 @@
+.col {
+	width: 95%;
+	padding: .5rem 0 .5rem .5rem;
+	transition: padding-left 2s;
+}
+
+
+.card-action,.blue-grey{
+	border-radius: 1.5rem;
+}
+
+.restaurantList{
+	height: 100vh;
+	overflow: auto;
+}
+
+.contentContainer{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+
+.btn{
+	margin-top: .5rem;
+}

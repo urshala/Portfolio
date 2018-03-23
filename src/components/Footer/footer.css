@@ -1,0 +1,42 @@
+.Footer{
+	height: 40vh;
+	background: black;
+	position: relative;
+	padding-top: 4rem;
+}
+
+.footerWrapper{
+	color: white;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	justify-items: center;
+	height: 100%;
+	text-align: left;
+}
+
+
+.contactWrapper span{
+	display: block;
+	padding: .5em;
+	line-height: 13px;
+	
+}
+
+.contactWrapper{
+	display: flex;
+	
+}
+
+.connectWrapper{
+	display: flex;
+	justify-content: space-between;
+}
+
+i.large.icon{
+	font-size: 2.5em;
+	color: green;
+}
+
+.connectWrapper i:hover{
+	cursor: pointer;
+}

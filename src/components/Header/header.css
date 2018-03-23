@@ -1,0 +1,231 @@
+.overlay{
+	position: relative;
+
+}
+
+/*.innerOverlay{
+	font-size: 4em;
+    fontWeight: normal;
+    marginTop: 30em;
+    text-align: center;
+}*/
+
+.innerOverlay{
+	font-size: 4em;
+	font-weight: normal;
+	margin-top: 3em;
+	text-align: center;
+}
+
+.ui.segment{
+	padding: 0;
+}
+
+.myAvatar{
+	object-fit: contain;
+    height: 25rem;
+    background-position: 50% 45%;
+    width: 25rem;
+    display: block;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    border: 3px solid white;
+}
+
+.demo{
+	display: inline-block;
+}
+.myParallax{
+	display: relative;
+}
+
+.parallax-container{
+	height: 95vh;
+}
+
+.imgContainer{
+	background: brown;
+	margin: 0;
+	padding: 0;
+	position: absolute;
+	bottom: -10rem;
+	border-radius: 50%;
+	height: 25rem;
+	width: 25rem;
+	left: 50%;
+	margin-left: -15rem;
+}
+
+.skillOuter{
+	margin-top: 16rem;
+	padding-top: 5rem;
+	border-top: 2px solid lightgrey;
+	box-shadow: 5px 5px 8px lightgrey, 10px 10px 8px lightgrey;
+	background: #f8f8f8;
+}
+.Container{
+  display: grid;
+  grid-template-rows: 5rem 1fr;
+}
+.skillCointainerWrapper{
+  display: grid;
+  grid-template-columns: repeat( 4, 1fr);
+  grid-column-gap: .5rem;
+  justify-items: center;
+}
+
+.skills{
+  height: 250px;
+  width: 90%;
+}
+
+
+.logo{
+  display: grid;
+  grid-template-rows: repeat(2, fr);
+  justify-items: center;
+  grid-row-gap: 2rem;
+}
+
+.logoContent{
+  font-size: large;
+}
+
+.reactIcon{
+	background: url('../../Images/reactjs.svg') no-repeat;
+}
+
+.pythonIcon{
+	background: url('../../Images/python.png');
+}
+
+.addedIcon{
+	height: 113px;
+	width: 111px;
+	background-size: contain;
+}
+
+.examples{
+	//color: brown;
+	text-align: center;
+	background: #f8f8f8 ;
+	padding-top: 5rem;
+	padding-bottom: 3rem;
+}
+
+.demosContainer{
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	//grid-template-rows: 1fr;
+	justify-items: center;
+	background: #f8f8f8 ;
+	
+}
+
+.logo{
+	transition: all 1s ease;
+}
+
+.skills:hover .logo{
+	transform:scale(1.25);
+}
+.card img{
+	transition: all 1s ease;
+}
+
+.card:hover img{
+	transform: scale(1.05);
+}
+
+/*overwrite css props */
+.ui.card:first-child{
+	margin-top: 1em;
+}
+.ui.card:last-child {
+    margin-bottom: 1em; 
+}
+.extra{
+	display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.ui.card .content{
+	font-size: 1.5rem;
+}
+/*end of overwritng */
+
+
+/* CSS FOR MOREPROJECTS */
+.col{
+	width: 50%;
+	grid-area: mainColumn;	
+}
+
+.columnContainer{
+	display: grid;
+	margin-bottom: .5rem;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: repeat(3,1fr);
+	
+}
+
+.itemA{
+	height: 80vh;
+	font-size: 2rem;
+}
+.itemA h1{
+	color: white;
+	font-size: 3rem;
+}
+.itemA:last-child h1{
+	color:black;
+}
+.green{
+	color: white;
+	
+}
+.red{
+	background: url('../../Images/machineLearning.png') no-repeat center center;
+	background-size:cover;
+}	
+
+.black{
+	background: url('../../Images/foli.png') no-repeat center center;
+	background-size:cover;
+}
+.blue{
+	background: blue;
+}
+.orange{
+	background: url('../../Images/auction.jpg') no-repeat center center;
+}
+.white.itemA{
+	color: black;
+}
+
+
+.chip{
+	background: black;
+	color: lightgrey;
+	font-size: 1rem;
+}
+
+.links{
+	display: flex;
+	box-shadow: 4px 4px 12px 3px rgba(0,0,0,0.64);
+	width: 33%;
+	margin: 0 auto;
+	//border: .5rem solid green;
+	justify-content: space-around;
+	font-size: 1.5rem;
+}
+
+.links span{
+	align-self: center;
+	display: block;
+}
+
+.text{
+	padding: 3rem;
+}
