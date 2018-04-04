@@ -19,7 +19,7 @@ const Footer = () =>
 					</div>
 					<div className="contactWrapper">
 						<Icon name='mail' size='large'/> 
-						<span>lahiripak@gmail.com</span>
+						<span>dpanta@abo.fi</span>
 					</div>
 				
 			</div>
